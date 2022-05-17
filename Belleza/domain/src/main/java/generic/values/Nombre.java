@@ -1,4 +1,4 @@
-package co.com.salondebelleza.belleza.puestodetrabajo.values;
+package generic.values;
 
 import co.com.sofka.domain.generic.ValueObject;
 
