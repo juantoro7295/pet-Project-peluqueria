@@ -18,4 +18,17 @@ public class Producto extends Entity<ProductoId> {
     public Producto(ProductoId id) {
         super(id);
     }
+
+    public void crearProducto(String nombre, String categoria){
+        this.nombre = new Nombre(nombre);
+        this.categoria = new Categoria(categoria);
+    }
+
+    public void actualizarCategoria(String categoria){
+        this.categoria = new Categoria(categoria);
+    }
+
+    public void actualizarNombre(String nombre){
+        this.nombre = new Nombre(nombre);
+    }
 }
