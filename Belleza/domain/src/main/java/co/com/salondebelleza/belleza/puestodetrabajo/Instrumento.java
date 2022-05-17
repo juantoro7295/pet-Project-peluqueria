@@ -18,4 +18,12 @@ public class Instrumento extends Entity<InstrumentoId> {
     public Instrumento(InstrumentoId id) {
         super(id);
     }
+
+    public void crearNombre(String nombre){
+        this.nombre = new Nombre(nombre);
+    }
+
+    public void asignarCategoria(String categoria){
+        this.categoria = new Categoria(categoria);
+    }
 }
