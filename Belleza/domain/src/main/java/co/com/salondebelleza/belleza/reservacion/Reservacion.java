@@ -6,6 +6,8 @@ import co.com.sofka.domain.generic.AggregateEvent;
 public class Reservacion extends AggregateEvent<ReservacionId> {
 
     public Reservacion(ReservacionId reservacionId) {
+
         super(reservacionId);
+
     }
 }
