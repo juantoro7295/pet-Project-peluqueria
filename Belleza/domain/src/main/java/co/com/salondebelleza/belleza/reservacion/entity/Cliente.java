@@ -7,10 +7,30 @@ import co.com.sofka.domain.generic.Entity;
 
 import generic.values.Nombre;
 
+/**
+ * Entidad Cliente
+ *
+ * @author Camila Morales, Aura russil, Juan Pablo Toro, Juan Esteban Velasquez
+ * @version 1.0.0
+ * @since 1.0.0
+ */
+
 public class Cliente extends Entity<ClienteId> {
 
-    protected  Nombre nombre;
-    protected  Telefono telefono;
+    /**
+     * Caracteristicas
+     */
+
+    protected Nombre nombre;
+    protected Telefono telefono;
+
+    /**
+     * Constructor Cliente
+     *
+     * @param clienteId de tipo ClienteId
+     * @param nombre    de tipo Nombre
+     * @param telefono  de tipo Telefono
+     */
 
     public Cliente(ClienteId clienteId, Nombre nombre, Telefono telefono) {
         super(clienteId);
@@ -18,9 +38,16 @@ public class Cliente extends Entity<ClienteId> {
         this.telefono = telefono;
     }
 
-    public void crearCliente(Nombre nombre, Telefono telefono){
+    /**
+     * Metodo crearCliente
+     *
+     * @param nombre   de tipo Nombre
+     * @param telefono de tipo Telefono
+     */
+
+    public void crearCliente(Nombre nombre, Telefono telefono) {
         var clienteid = new ClienteId();
-        Cliente cliente = new Cliente(clienteid,nombre,telefono);
+        Cliente cliente = new Cliente(clienteid, nombre, telefono);
     }
 
 }

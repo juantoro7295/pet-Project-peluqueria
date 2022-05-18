@@ -10,8 +10,20 @@ import co.com.sofka.domain.generic.AggregateEvent;
 
 import java.util.List;
 
+/**
+ * Agregado Puesto de trabajo
+ *
+ * @author Camila Morales, Aura russil, Juan Pablo Toro, Juan Esteban Velasquez
+ * @version 1.0.0
+ * @since 1.0.0
+ */
+
 
 public class PuestoTrabajo extends AggregateEvent<PuestoTrabajoId> {
+
+    /**
+     * Caracteristicas
+     */
 
     protected List<Producto> producto;
     protected Instrumento instrumento;
@@ -19,6 +31,13 @@ public class PuestoTrabajo extends AggregateEvent<PuestoTrabajoId> {
     protected ReservacionId reservacionId;
 
 
+    /**
+     *  Constructor PuestoTrabajo
+     * @param entityId de tipo EntidadId
+     * @param empleadoId de tipo EmpleadoId
+     * @param reservacionId de tipo ReservacionId
+     * @param instrumento de tipo Instrumento
+     */
     public PuestoTrabajo(PuestoTrabajoId entityId, EmpleadoId empleadoId, ReservacionId reservacionId, Instrumento instrumento) {
         super(entityId);
         appendChange(new PuestoDeTrabajoAgregado(empleadoId, reservacionId, instrumento)).apply();
@@ -27,10 +46,19 @@ public class PuestoTrabajo extends AggregateEvent<PuestoTrabajoId> {
 
     }
 
+    /**
+     * Constructor
+     * @param entityId
+     */
     public PuestoTrabajo(PuestoTrabajoId entityId) {
         super(entityId);
         subscribe(new PuestoTrabajoEventChange(this));
     }
+
+
+    /**
+     * getters
+     */
 
     public List<Producto> Producto() {
         return producto;
