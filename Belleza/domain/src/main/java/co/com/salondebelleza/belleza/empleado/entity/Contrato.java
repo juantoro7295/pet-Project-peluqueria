@@ -1,4 +1,4 @@
-package co.com.salondebelleza.belleza.empleado;
+package co.com.salondebelleza.belleza.empleado.entity;
 
 import co.com.salondebelleza.belleza.empleado.values.ContratoId;
 import co.com.salondebelleza.belleza.empleado.values.TipoContrato;

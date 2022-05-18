@@ -1,4 +1,4 @@
-package co.com.salondebelleza.belleza.reservacion;
+package co.com.salondebelleza.belleza.reservacion.values;
 
 import co.com.sofka.domain.generic.Identity;
 

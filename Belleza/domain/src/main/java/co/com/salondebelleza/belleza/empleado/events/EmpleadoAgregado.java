@@ -1,7 +1,7 @@
 package co.com.salondebelleza.belleza.empleado.events;
 
-import co.com.salondebelleza.belleza.empleado.Contrato;
-import co.com.salondebelleza.belleza.empleado.Rol;
+import co.com.salondebelleza.belleza.empleado.entity.Contrato;
+import co.com.salondebelleza.belleza.empleado.entity.Rol;
 import co.com.sofka.domain.generic.DomainEvent;
 import generic.values.Nombre;
 

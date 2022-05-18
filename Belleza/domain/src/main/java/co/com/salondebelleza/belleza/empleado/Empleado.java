@@ -1,5 +1,7 @@
 package co.com.salondebelleza.belleza.empleado;
 
+import co.com.salondebelleza.belleza.empleado.entity.Contrato;
+import co.com.salondebelleza.belleza.empleado.entity.Rol;
 import co.com.salondebelleza.belleza.empleado.events.EmpleadoAgregado;
 import co.com.salondebelleza.belleza.empleado.values.EmpleadoId;
 import co.com.sofka.domain.generic.AggregateEvent;
@@ -21,8 +23,8 @@ public class Empleado extends AggregateEvent<EmpleadoId> {
 
 
     public Empleado(EmpleadoId empleadoId) {
-
         super(empleadoId);
+        subscribe(new EmpleadoEventChange(this));
     }
 
     public Nombre Nombre() {
