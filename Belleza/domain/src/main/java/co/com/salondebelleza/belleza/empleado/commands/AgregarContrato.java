@@ -15,7 +15,6 @@ public class AgregarContrato extends Command {
         this.tipoContrato = tipoContrato;
     }
 
-
     public EmpleadoId EmpleadoId() {
         return empleadoId;
     }
@@ -23,6 +22,4 @@ public class AgregarContrato extends Command {
     public TipoContrato TipoContrato() {
         return tipoContrato;
     }
-
-    
 }

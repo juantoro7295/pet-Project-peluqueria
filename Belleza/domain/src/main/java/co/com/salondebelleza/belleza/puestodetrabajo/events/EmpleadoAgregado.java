@@ -17,4 +17,16 @@ public class EmpleadoAgregado extends DomainEvent {
         this.nombre = nombre;
         this.rol = rol;
     }
+
+    public Contrato Contrato() {
+        return contrato;
+    }
+
+    public Nombre Nombre() {
+        return nombre;
+    }
+
+    public Rol Rol() {
+        return rol;
+    }
 }
