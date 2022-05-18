@@ -1,6 +1,7 @@
-package co.com.salondebelleza.belleza.puestodetrabajo;
+package co.com.salondebelleza.belleza.puestodetrabajo.entity;
 
 import co.com.salondebelleza.belleza.puestodetrabajo.values.Categoria;
+import co.com.salondebelleza.belleza.puestodetrabajo.values.ProductoId;
 import co.com.sofka.domain.generic.Entity;
 import generic.values.Nombre;
 
