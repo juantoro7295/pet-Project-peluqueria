@@ -11,4 +11,7 @@ public class EliminarEmpleado extends Command {
         this.empleadoId = empleadoId;
     }
 
+    public EmpleadoId EmpleadoId() {
+        return empleadoId;
+    }
 }

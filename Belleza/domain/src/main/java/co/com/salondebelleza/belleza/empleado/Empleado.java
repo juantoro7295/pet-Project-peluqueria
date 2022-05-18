@@ -7,6 +7,8 @@ import co.com.salondebelleza.belleza.empleado.values.EmpleadoId;
 import co.com.sofka.domain.generic.AggregateEvent;
 import generic.values.Nombre;
 
+
+
 public class Empleado extends AggregateEvent<EmpleadoId> {
 
     protected Nombre nombre;
@@ -17,8 +19,6 @@ public class Empleado extends AggregateEvent<EmpleadoId> {
         super(entityId);
         appendChange(new EmpleadoAgregado(nombre,contrato,rol)).apply();
         subscribe(new EmpleadoEventChange(this));
-
-
     }
 
 

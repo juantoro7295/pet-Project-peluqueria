@@ -11,4 +11,8 @@ public class EmpleadoEliminado extends DomainEvent {
         super("co.com.salondebelleza.belleza.EmpleadoEliminado");
         this.empleadoId = empleadoId;
     }
+
+    public EmpleadoId EmpleadoId() {
+        return empleadoId;
+    }
 }
