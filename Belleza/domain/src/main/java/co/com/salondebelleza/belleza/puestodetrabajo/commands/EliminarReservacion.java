@@ -16,6 +16,7 @@ public class EliminarReservacion extends Command {
 
     /**
      * Constructor EliminarReservacion
+     *
      * @param reservacionId
      */
     public EliminarReservacion(ReservacionId reservacionId) {
@@ -24,6 +25,7 @@ public class EliminarReservacion extends Command {
 
     /**
      * Obtener Reservacion Id
+     *
      * @return ReservacionId
      */
     public ReservacionId ReservacionId() {

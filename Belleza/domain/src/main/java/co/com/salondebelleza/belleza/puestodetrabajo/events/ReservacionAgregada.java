@@ -20,6 +20,7 @@ public class ReservacionAgregada extends DomainEvent {
 
     /**
      * Constructor ReservacionAgregada
+     *
      * @param cliente
      * @param tipoServicio
      * @param fecha
@@ -33,6 +34,7 @@ public class ReservacionAgregada extends DomainEvent {
 
     /**
      * Obtener Cliente
+     *
      * @return
      */
     public Cliente Cliente() {
@@ -41,6 +43,7 @@ public class ReservacionAgregada extends DomainEvent {
 
     /**
      * Obtener Tipo de Servicio
+     *
      * @return TipoServicio
      */
     public TipoServicio TipoServicio() {
@@ -49,6 +52,7 @@ public class ReservacionAgregada extends DomainEvent {
 
     /**
      * Obtener Fecha
+     *
      * @return Fecha
      */
     public Fecha Fecha() {

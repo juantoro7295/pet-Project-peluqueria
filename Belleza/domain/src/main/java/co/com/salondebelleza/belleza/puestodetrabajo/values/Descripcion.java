@@ -20,6 +20,7 @@ public class Descripcion implements ValueObject<String> {
 
     /**
      * constructor
+     *
      * @param descripcion de tipo String
      */
 

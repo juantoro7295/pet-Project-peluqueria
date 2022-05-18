@@ -16,6 +16,7 @@ public class PuestoDeTrabajoEliminado extends DomainEvent {
 
     /**
      * Constructor PuestoDeTrabajoEliminado
+     *
      * @param puestoTrabajoId
      */
     public PuestoDeTrabajoEliminado(PuestoTrabajoId puestoTrabajoId) {
@@ -25,6 +26,7 @@ public class PuestoDeTrabajoEliminado extends DomainEvent {
 
     /**
      * Obtener Puesto de trabajo id
+     *
      * @return PuestoTrabajoId
      */
     public PuestoTrabajoId PuestoTrabajoId() {

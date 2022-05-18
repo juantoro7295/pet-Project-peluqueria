@@ -26,6 +26,7 @@ public class EmpleadoEliminado extends DomainEvent {
 
     /**
      * Obtener Empleado Id
+     *
      * @return EmpleadoId
      */
     public EmpleadoId EmpleadoId() {

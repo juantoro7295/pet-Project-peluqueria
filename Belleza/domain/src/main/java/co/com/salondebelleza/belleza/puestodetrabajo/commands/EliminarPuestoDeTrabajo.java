@@ -15,6 +15,7 @@ public class EliminarPuestoDeTrabajo extends Command {
 
     /**
      * Constructor EliminarPuestoDeTrabajo
+     *
      * @param puestoTrabajoId
      */
     public EliminarPuestoDeTrabajo(PuestoTrabajoId puestoTrabajoId) {
@@ -23,6 +24,7 @@ public class EliminarPuestoDeTrabajo extends Command {
 
     /**
      * Obtener Puesto de Trabajo Id
+     *
      * @return PuestoTrabajoId
      */
     public PuestoTrabajoId PuestoTrabajoId() {

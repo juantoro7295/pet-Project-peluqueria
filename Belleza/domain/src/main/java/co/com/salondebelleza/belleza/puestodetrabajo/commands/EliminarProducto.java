@@ -16,6 +16,7 @@ public class EliminarProducto extends Command {
 
     /**
      * Constructor EliminarProducto
+     *
      * @param productoId
      */
     public EliminarProducto(ProductoId productoId) {
@@ -24,6 +25,7 @@ public class EliminarProducto extends Command {
 
     /**
      * Obtener ProductoId
+     *
      * @return
      */
     public ProductoId ProductoId() {

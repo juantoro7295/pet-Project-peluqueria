@@ -17,6 +17,7 @@ public class EliminarEmpleado extends Command {
 
     /**
      * Constructor EliminarEmpleado
+     *
      * @param empleadoId
      */
     public EliminarEmpleado(EmpleadoId empleadoId) {
@@ -25,6 +26,7 @@ public class EliminarEmpleado extends Command {
 
     /**
      * Obtener Empleado Id
+     *
      * @return EmpleadoId
      */
     public EmpleadoId EmpleadoId() {

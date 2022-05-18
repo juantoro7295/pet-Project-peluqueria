@@ -20,6 +20,7 @@ public class PuestoDeTrabajoAgregado extends DomainEvent {
 
     /**
      * Constructor PuestoDeTrabajoAgregado
+     *
      * @param empleadoId
      * @param reservacionId
      * @param instrumento
@@ -33,6 +34,7 @@ public class PuestoDeTrabajoAgregado extends DomainEvent {
 
     /**
      * Obtener Empleado Id
+     *
      * @return EmpleadoId
      */
     public EmpleadoId EmpleadoId() {
@@ -41,6 +43,7 @@ public class PuestoDeTrabajoAgregado extends DomainEvent {
 
     /**
      * Obtener Reservacion Id
+     *
      * @return ReservacionId
      */
     public ReservacionId ReservacionId() {
@@ -49,6 +52,7 @@ public class PuestoDeTrabajoAgregado extends DomainEvent {
 
     /**
      * Obtener Instrumento
+     *
      * @return Instrumento
      */
     public Instrumento Instrumento() {

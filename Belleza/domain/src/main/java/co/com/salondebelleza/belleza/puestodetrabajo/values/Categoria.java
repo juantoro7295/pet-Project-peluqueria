@@ -20,6 +20,7 @@ public class Categoria implements ValueObject<String> {
 
     /**
      * constructor
+     *
      * @param categoria de tipo String
      */
     public Categoria(String categoria) {

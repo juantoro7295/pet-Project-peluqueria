@@ -17,6 +17,7 @@ public class ProductoAgregado extends DomainEvent {
 
     /**
      * Constructor de ProductoAgregado
+     *
      * @param nombre
      * @param categoria
      */
@@ -28,6 +29,7 @@ public class ProductoAgregado extends DomainEvent {
 
     /**
      * Metodo de acceso de nombre
+     *
      * @return nombre
      */
     public Nombre Nombre() {
@@ -36,6 +38,7 @@ public class ProductoAgregado extends DomainEvent {
 
     /**
      * Metodo de acceso de  categoria
+     *
      * @return categoria
      */
     public Categoria Categoria() {

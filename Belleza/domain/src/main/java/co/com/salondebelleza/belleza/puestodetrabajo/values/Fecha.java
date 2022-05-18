@@ -25,8 +25,9 @@ public class Fecha implements ValueObject<Fecha.Pros> {
 
     /**
      * constructor Fecha
+     *
      * @param hora de tipo LocalDateTime
-     * @param dia de tipo LocalDate
+     * @param dia  de tipo LocalDate
      */
     public Fecha(LocalDateTime hora, LocalDate dia) {
         this.hora = Objects.requireNonNull(hora);
@@ -36,8 +37,8 @@ public class Fecha implements ValueObject<Fecha.Pros> {
 
 
     /**
-     *  Objeto de valor Fecha compuesto, se usa una interfaz llamada
-     *  pros para diferencias sus caracteristicas
+     * Objeto de valor Fecha compuesto, se usa una interfaz llamada
+     * pros para diferencias sus caracteristicas
      */
 
     @Override

@@ -17,6 +17,7 @@ public class ProductoEliminado extends DomainEvent {
 
     /**
      * Constructor del ProductoEliminado
+     *
      * @param productoId
      */
     public ProductoEliminado(ProductoId productoId) {
@@ -26,6 +27,7 @@ public class ProductoEliminado extends DomainEvent {
 
     /**
      * Metodo de acceso de productoId
+     *
      * @return productoId
      */
     public ProductoId ProductoId() {

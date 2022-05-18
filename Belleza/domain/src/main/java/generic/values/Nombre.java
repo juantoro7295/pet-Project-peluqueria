@@ -21,6 +21,7 @@ public class Nombre implements ValueObject<String> {
 
     /**
      * constructor
+     *
      * @param value String
      */
     public Nombre(String value) {

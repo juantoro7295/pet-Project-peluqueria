@@ -32,11 +32,12 @@ public class PuestoTrabajo extends AggregateEvent<PuestoTrabajoId> {
 
 
     /**
-     *  Constructor PuestoTrabajo
-     * @param entityId de tipo EntidadId
-     * @param empleadoId de tipo EmpleadoId
+     * Constructor PuestoTrabajo
+     *
+     * @param entityId      de tipo EntidadId
+     * @param empleadoId    de tipo EmpleadoId
      * @param reservacionId de tipo ReservacionId
-     * @param instrumento de tipo Instrumento
+     * @param instrumento   de tipo Instrumento
      */
     public PuestoTrabajo(PuestoTrabajoId entityId, EmpleadoId empleadoId, ReservacionId reservacionId, Instrumento instrumento) {
         super(entityId);
@@ -48,6 +49,7 @@ public class PuestoTrabajo extends AggregateEvent<PuestoTrabajoId> {
 
     /**
      * Constructor
+     *
      * @param entityId
      */
     public PuestoTrabajo(PuestoTrabajoId entityId) {

@@ -1,7 +1,5 @@
 package co.com.salondebelleza.belleza.empleado.commands;
 
-import co.com.salondebelleza.belleza.empleado.entity.Rol;
-import co.com.salondebelleza.belleza.empleado.values.ContratoId;
 import co.com.salondebelleza.belleza.empleado.values.EmpleadoId;
 import co.com.salondebelleza.belleza.empleado.values.TipoContrato;
 import co.com.sofka.domain.generic.Command;

@@ -16,6 +16,7 @@ public class InstrumentoEliminado extends DomainEvent {
 
     /**
      * Constructor de IntrumentoEliminado
+     *
      * @param instrumentoId
      */
     public InstrumentoEliminado(InstrumentoId instrumentoId) {
@@ -25,6 +26,7 @@ public class InstrumentoEliminado extends DomainEvent {
 
     /**
      * Metodo de acceso de introdumentoId
+     *
      * @return intrumentoId
      */
     public InstrumentoId getInstrumentoId() {

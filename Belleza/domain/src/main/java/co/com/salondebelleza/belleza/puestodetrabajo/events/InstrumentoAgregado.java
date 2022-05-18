@@ -17,6 +17,7 @@ public class InstrumentoAgregado extends DomainEvent {
 
     /**
      * Constructor para IntrumentoAgregado
+     *
      * @param nombre
      * @param categoria
      */
@@ -28,6 +29,7 @@ public class InstrumentoAgregado extends DomainEvent {
 
     /**
      * Metodo de acceso Nombre
+     *
      * @return nombre
      */
     public Nombre Nombre() {
@@ -36,6 +38,7 @@ public class InstrumentoAgregado extends DomainEvent {
 
     /**
      * Metoodo de acceso de categoria
+     *
      * @return categoria
      */
     public Categoria Categoria() {

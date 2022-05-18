@@ -17,6 +17,7 @@ import java.util.ArrayList;
 public class PuestoTrabajoEventChange extends EventChange {
     /**
      * Evento de cambio - Agregar Puesto de Trabajo
+     *
      * @param puestoTrabajo
      */
     public PuestoTrabajoEventChange(PuestoTrabajo puestoTrabajo) {

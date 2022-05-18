@@ -19,6 +19,7 @@ public class Producto extends Entity<ProductoId> {
 
     /**
      * Constructor Producto
+     *
      * @param id
      * @param nombre
      * @param categoria
@@ -31,6 +32,7 @@ public class Producto extends Entity<ProductoId> {
 
     /**
      * Constructor Producto
+     *
      * @param id
      */
     public Producto(ProductoId id) {
@@ -39,6 +41,7 @@ public class Producto extends Entity<ProductoId> {
 
     /**
      * Crear Producto
+     *
      * @param nombre
      * @param categoria
      */
@@ -49,6 +52,7 @@ public class Producto extends Entity<ProductoId> {
 
     /**
      * Metodo para ctualizar Categoria
+     *
      * @param categoria
      */
     public void actualizarCategoria(String categoria) {
@@ -57,6 +61,7 @@ public class Producto extends Entity<ProductoId> {
 
     /**
      * Metodo para actualizar Nombre
+     *
      * @param nombre
      */
     public void actualizarNombre(String nombre) {

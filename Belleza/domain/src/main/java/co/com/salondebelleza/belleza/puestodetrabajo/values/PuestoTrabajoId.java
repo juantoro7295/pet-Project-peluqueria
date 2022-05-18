@@ -13,6 +13,7 @@ import co.com.sofka.domain.generic.Identity;
 public class PuestoTrabajoId extends Identity {
     /**
      * constructor PuestoTrabajoId
+     *
      * @param id de tipo String
      */
     public PuestoTrabajoId(String id) {
