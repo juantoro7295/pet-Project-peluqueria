@@ -9,3 +9,6 @@ proyecto peluqueria
 
 ## Modelo de Dominio
 ![Practica Dominio-Modelo de Dominio drawio](https://user-images.githubusercontent.com/71297040/168948848-6972b205-0a9a-48c4-9019-f9b3fd4128ee.png)
+
+## PDF Dominio
+[DominioPeluqueria.drawio.pdf](https://github.com/juantoro7295/pet-project-peluqueria/files/8713064/DominioPeluqueria.drawio.pdf)
