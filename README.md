@@ -1,5 +1,17 @@
 # pet-project-peluqueria
-proyecto peluqueria
+proyecto sobre una peluqueria
+
+## Integrantes
+-Aura Cristina Russill Meza.
+
+-Juan Esteban Velásquez Posada.
+
+-Juan Pablo Toro Hurtado.
+
+-María Camila Morales Galeano.
+
+
+
 
 ## Dominio Centro de Belleza
 ![Practica Dominio-pelu drawio](https://user-images.githubusercontent.com/71297040/168948988-d1627b47-7d17-463f-900f-3e099f1d7b56.png)
